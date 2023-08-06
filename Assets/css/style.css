@@ -78,13 +78,15 @@ p {
     margin-left: 25px;
 }
 
+/*Left side screen text content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+/*3 boxes with text and img*/
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,11 +95,13 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/*img sizes in boxes*/
+.content div img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/*headings within boxes*/
+.content div h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
